@@ -55,3 +55,5 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`\x1b[36m%s\x1b[0m`, `Server is running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
 });
+
+export default app;
