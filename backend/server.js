@@ -20,6 +20,7 @@ app.get('/', (req, res) => {
   res.json({
     message: 'Welcome to the EduSphere Online Course Platform API',
     status: 'healthy',
+    database: process.env.USE_MOCK_DB === 'true' ? 'mock_db (JSON Fallback)' : 'mongodb_atlas',
     version: '1.0.0',
   });
 });
