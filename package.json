@@ -1,0 +1,13 @@
+{
+  "name": "edusphere-root",
+  "version": "1.0.0",
+  "description": "Root redirector for automatic MERN deployment on Render",
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "preinstall": "npm install --prefix backend",
+    "start": "node backend/server.js"
+  },
+  "author": "EduSphere Team",
+  "license": "ISC"
+}
