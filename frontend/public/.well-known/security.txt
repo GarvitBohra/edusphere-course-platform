@@ -1,0 +1,4 @@
+Contact: mailto:security@edusphere.com
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: en
+Policy: https://frontend-five-alpha-pm0xeugm9e.vercel.app/security-policy
